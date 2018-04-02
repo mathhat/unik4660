@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.17)  24 MAR 2018 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.17)  2 APR 2018 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,19 +6,20 @@ entering extended mode
 (./oblig.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -360,7 +361,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -382,10 +383,10 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen110
 \caption@hangindent=\dimen111
 )
-\c@ContinuedFloat=\count88
+\c@ContinuedFloat=\count89
 )
-\c@subfigure=\count89
-\c@subtable=\count90
+\c@subfigure=\count90
+\c@subtable=\count91
 )
 (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
@@ -410,13 +411,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count91
+\inf@bad=\count92
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count92
-\leftroot@=\count93
+\uproot@=\count93
+\leftroot@=\count94
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count94
-\DOTSCASE@=\count95
+\classnum@=\count95
+\DOTSCASE@=\count96
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
@@ -425,15 +426,15 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen114
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count96
-\c@MaxMatrixCols=\count97
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
-\c@parentequation=\count98
-\dspbrk@lvl=\count99
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
 \tag@help=\toks18
-\row@=\count100
-\column@=\count101
-\maxfields@=\count102
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
 \andhelp@=\toks19
 \eqnshift@=\dimen115
 \alignsep@=\dimen116
@@ -449,23 +450,23 @@ LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count103
+\lst@mode=\count104
 \lst@gtempboxa=\box28
 \lst@token=\toks22
-\lst@length=\count104
+\lst@length=\count105
 \lst@currlwidth=\dimen121
-\lst@column=\count105
-\lst@pos=\count106
+\lst@column=\count106
+\lst@pos=\count107
 \lst@lostspace=\dimen122
 \lst@width=\dimen123
-\lst@newlines=\count107
-\lst@lineno=\count108
+\lst@newlines=\count108
+\lst@lineno=\count109
 \lst@maxwidth=\dimen124
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count109
-\lst@skipnumbers=\count110
+\c@lstnumber=\count110
+\lst@skipnumbers=\count111
 \lst@framebox=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -507,16 +508,16 @@ LaTeX Font Info:    ... okay on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
+\scratchcounter=\count112
 \scratchdimen=\dimen125
 \scratchbox=\box30
-\nofMPsegments=\count112
-\nofMParguments=\count113
+\nofMPsegments=\count113
+\nofMParguments=\count114
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count114
+\MPscratchCnt=\count115
 \MPscratchDim=\dimen126
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -569,44 +570,127 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count117
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
+\c@lstlisting=\count118
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
-
-<homo.png, id=1, 756.6669pt x 627.3036pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+ [1]
+<homo.png, id=19, 756.6669pt x 627.3036pt>
 File: homo.png Graphic file (type png)
  <use homo.png>
-Package pdftex.def Info: homo.png used on input line 72.
-(pdftex.def)             Requested size: 189.75105pt x 157.30411pt.
- [1
+Package pdftex.def Info: homo.png used on input line 92.
+(pdftex.def)             Requested size: 310.4979pt x 257.41629pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./homo.png>] (./oblig.
-aux) ) 
+<random.png, id=21, 889.6437pt x 708.9687pt>
+File: random.png Graphic file (type png)
+ <use random.png>
+Package pdftex.def Info: random.png used on input line 98.
+(pdftex.def)             Requested size: 310.4979pt x 247.43959pt.
+ [2] [3 <./homo.png> <./random.png>] <short.png, id=30, 578.16pt x 433.62pt>
+File: short.png Graphic file (type png)
+ <use short.png>
+Package pdftex.def Info: short.png used on input line 104.
+(pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
+
+<medium.png, id=31, 578.16pt x 433.62pt>
+File: medium.png Graphic file (type png)
+ <use medium.png>
+Package pdftex.def Info: medium.png used on input line 110.
+(pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
+
+<long.png, id=32, 578.16pt x 433.62pt>
+File: long.png Graphic file (type png)
+ <use long.png>
+Package pdftex.def Info: long.png used on input line 115.
+(pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
+ [4 <./short.png> <./medium.png>] [5 <./long.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
+ [6
+
+
+]
+<metsim_linelength_5_highdef.jpg, id=47, 1019.81pt x 1019.81pt>
+File: metsim_linelength_5_highdef.jpg Graphic file (type jpg)
+
+<use metsim_linelength_5_highdef.jpg>
+Package pdftex.def Info: metsim_linelength_5_highdef.jpg used on input line 150
+.
+(pdftex.def)             Requested size: 241.49895pt x 241.49158pt.
+
+<metsim_linelength_10_highdef.jpg, id=48, 1019.81pt x 1019.81pt>
+File: metsim_linelength_10_highdef.jpg Graphic file (type jpg)
+
+<use metsim_linelength_10_highdef.jpg>
+Package pdftex.def Info: metsim_linelength_10_highdef.jpg used on input line 15
+5.
+(pdftex.def)             Requested size: 241.49895pt x 241.49158pt.
+
+<metsim_linelength_20_highdef.jpg, id=49, 1019.81pt x 1019.81pt>
+File: metsim_linelength_20_highdef.jpg Graphic file (type jpg)
+
+<use metsim_linelength_20_highdef.jpg>
+Package pdftex.def Info: metsim_linelength_20_highdef.jpg used on input line 16
+0.
+(pdftex.def)             Requested size: 241.49895pt x 241.49158pt.
+
+<isabel_linelength_10_highdef.jpg, id=50, 2007.5pt x 2007.5pt>
+File: isabel_linelength_10_highdef.jpg Graphic file (type jpg)
+
+<use isabel_linelength_10_highdef.jpg>
+Package pdftex.def Info: isabel_linelength_10_highdef.jpg used on input line 16
+6.
+(pdftex.def)             Requested size: 241.49895pt x 241.47162pt.
+
+<isabel_linelength_20_highdef.jpg, id=51, 1003.75pt x 1003.75pt>
+File: isabel_linelength_20_highdef.jpg Graphic file (type jpg)
+
+<use isabel_linelength_20_highdef.jpg>
+Package pdftex.def Info: isabel_linelength_20_highdef.jpg used on input line 17
+1.
+(pdftex.def)             Requested size: 241.49895pt x 241.48692pt.
+
+<isabel_linelength_50.png, id=52, 1003.75pt x 1003.75pt>
+File: isabel_linelength_50.png Graphic file (type png)
+
+<use isabel_linelength_50.png>
+Package pdftex.def Info: isabel_linelength_50.png used on input line 176.
+(pdftex.def)             Requested size: 241.49895pt x 241.48692pt.
+ [7 <./metsim_linelength_5_highdef.jpg> <./metsim_linelength_10_highdef.jpg>] [
+8 <./metsim_linelength_20_highdef.jpg> <./isabel_linelength_10_highdef.jpg>] [9
+ <./isabel_linelength_20_highdef.jpg> <./isabel_linelength_50.png>] (./oblig.au
+x) ) 
 Here is how much of TeX's memory you used:
- 5330 strings out of 493029
- 74788 string characters out of 6136233
- 197737 words of memory out of 5000000
- 8805 multiletter control sequences out of 15000+600000
- 8263 words of font info for 30 fonts, out of 8000000 for 9000
+ 5408 strings out of 493029
+ 76361 string characters out of 6136233
+ 198084 words of memory out of 5000000
+ 8873 multiletter control sequences out of 15000+600000
+ 9024 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,49p,269b,1336s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb>
-Output written on oblig.pdf (2 pages, 665213 bytes).
+ 42i,8n,49p,330b,1338s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb>
+Output written on oblig.pdf (10 pages, 6179657 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
