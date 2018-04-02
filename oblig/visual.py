@@ -2,15 +2,15 @@ import matplotlib.pyplot as plt
 import numpy as np 
 from matplotlib import cm
 N = 127*4 #width in cpp document
-L = N/10  #length of lines defined in cpp document
-numlines = (127*4/10)**2
+L = 30  #length of lines defined in cpp document
+numlines = (500/(500/100))**2
 #numlines=int(np.floor(np.sqrt(numlines))**2)
 x = np.zeros((N,N))
 y = np.zeros((N,N))
 st= np.zeros((2,2*L+1))
 fig = plt.figure()
 '''
-with open ("x.txt","r") as xfile:
+with open ("x.txt","r") as xfile: #vectorfield visualization
     for j in range(N):
         for i in range(N):
             x[j,i] = float(xfile.readline())
@@ -20,7 +20,7 @@ with open ("y.txt","r") as yfile:
         for i in range(N):
             y[j,i] = float(yfile.readline())
 '''
-with open ("lines.txt","r") as linefile:
+with open ("lines.txt","r") as linefile: #geometric visualization
     for i in range(numlines):
         for j in range(2*L+1):
             line = linefile.readline().split()

@@ -30,8 +30,8 @@ main (void)
     hid_t       file, space, dset,dset2;
     herr_t      status,status2;
 
-    int noise_scale = 3; //either 1 or 2
-    noise_scale = pow(2,noise_scale); //either 1 or 2
+    int noise_scale = 0; //how many times do you wanna interpolate?
+    noise_scale = pow(2,noise_scale); //each interpolation quadruples the pixels
     int width = noise_scale*DIM0;
     int height = noise_scale*DIM1;
 
@@ -95,7 +95,6 @@ main (void)
             interp*=2;
             x = new double[interp*interp*DIM0*DIM1];
             y = new double[interp*interp*DIM0*DIM1];
-            cout <<interp*interp*DIM0*DIM1<<endl;
             interpolate(rdata,rdata2,x,y,interp*DIM0,interp*DIM1);
 
         }
@@ -105,17 +104,12 @@ main (void)
     //HERE WE INTIALIZE AND INTEGRATE THE STREAMLINE
     int x0,y0;
     int L = 30;        //half of the streamline's length
-    cout<<L<<endl;
     double streamlinex[2*L+1]; //the streamline's x coordinates
     double streamliney[2*L+1]; //the streamline's y coordinates
     double p;
     double tol = 0.0002;
     int index;
-    cout <<x[3941751]<<endl;
-    cout <<y[3941751]<<endl;
 
-    //ofstream sfile;
-    //sfile.open ("lines.txt");
     
     for (j = 0; j < height; j+=1){
         for (i = 0; i < width; i+=1){
@@ -132,11 +126,29 @@ main (void)
         else{
             image[i + j*width] = 0;
         }
-        //streamwriter(streamlinex,streamliney,L);
         }
     }
     
-    //sfile.close();
+    
+
+    //streamline writer  
+    /*
+    ofstream sfile;
+    sfile.open ("lines.txt");
+     
+    for (j = 0; j < height; j+=height/100){
+        for (i = 0; i < width; i+=width/100){
+        p = 0;
+        x0 = i;
+        y0 = j;
+        index = x0+y0*width;
+        euler(x,y,streamlinex,streamliney,x0,y0,L,width,height);
+        streamwriter(streamlinex,streamliney,L);
+        }
+    }
+    
+    sfile.close();
+    */
     pgm(image, width, height,L);
     
     
@@ -204,7 +216,7 @@ makenoise(unsigned char *noise, int width, int height)
 void 
 pgm(const unsigned char *image, int width, int height,int L)
 {
-    string l = "isabel_linelength_"+to_string(L)+"_highdef.pgm";
+    string l = "isabel_linelength_"+to_string(L)+".pgm";
     cout <<"watup"<<endl;
     ofstream f(l,    ios_base::out
                               |ios_base::binary
