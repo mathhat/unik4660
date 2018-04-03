@@ -5,6 +5,7 @@ from mpl_toolkits.mplot3d import Axes3D
 n = 10000
 r = 1.
 t0 = 1.
+
 z0 = np.arange(10)
 theta = np.linspace(0, np.pi*2.,10000)
 x = r*np.cos(theta)

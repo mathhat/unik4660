@@ -43,18 +43,16 @@
 
 \maketitle
 \section*{Introduction}
-The aim of this assignment is to present a geometric and texture based visualization method for visualizing vector field data. The geometric method is simply the visualization of streamlines. The streamlines are produced from numerical integration of the velocity field.
-The texture based method used is called LIC, proposed by Brian Cabral and Leith Leedom\footnote[1]{Cabral, Brian; Leedom, Leith Casey (August 2–6, 1993). "Imaging Vector Fields Using Line Integral Convolution"}. Finally, we will compare the resulting imagery.
+The aim of this assignment is to present geometric and texture based visualization methods for visualizing 2D vector field data. The geometric method is composed of the visualization of streamlines produced from numerical integration of the velocity field.
+The texture based method used is LIC, proposed by Brian Cabral and Leith Leedom\footnote[1]{Cabral, Brian; Leedom, Leith Casey (August 2–6, 1993). "Imaging Vector Fields Using Line Integral Convolution"}. Finally, we will compare the resulting imagery.
 
 
 \section*{Data}
 To start off with, the 2 vector field data files we're looking at has different, but quadratic resolutions. The set called "metsim1" is 127 by 127, while the one called "isabel" is 500 by 500. In order to increase the resolution, I've implemented a simple interpolator which increases the resolution by any order of 2.
 
-The datasets are in a vector form, stored in the HDF5 format. In order to extract the vector-field data, we need to use the HDF5 library, written in, but perhaps not exclusively for, PYTHON and C/C++.
+The datasets are stored in the HDF5 format as 1D arrays. In order to extract the vector-field data, we need to use the HDF5 library, written in, but perhaps not exclusively for, PYTHON and C/C++.
 For this assignment I'll be using C++ for the integration and texture visualization and PYTHON(2.7) for the geometric visualization.
 
-\section*{Geometric visualization}
-The first half of the assignment is to extract the data from the HDF5 format, implement the integrators and choosing how to seed the streamline's initial position.
 \subsection*{HDF5}
 
 Below is a function that extracts the vector field data to the 1D vectors "rdata" and "rdata2":
@@ -70,11 +68,10 @@ init(hid_t file, hid_t dset,hid_t dset2, herr_t status,herr_t status2,double* rd
       status2 = H5Dread (dset2, H5T_NATIVE_DOUBLE, H5S_ALL, H5S_ALL, H5P_DEFAULT,rdata2);
     }
 \end{lstlisting}
-This function takes two arrays, rdata and rdata2, and fills the arrays with the vector-field data. 
 First the function opens the file whose name is stored as a string in the "FILE" variable.
 It then splits the dataset into its x and y sub-datasets seperately. These datasets are then "read", or rather inserted, into the rdata arrays thanks to the H5Dread method from the HDF5 library.
-\subsection*{Integration and Seeding}
-
+\section*{Integration and Seeding}
+After extracting the vector field data, we can begin integrating streamlines.
 I've implemented both the forward Euler and 4th order Runge Kutta method. The timestep seems to be optimal around the value 1, causing the streamlines to jump to its neighbouring pixel. This might be due to the velocity normalization.
 The Euler and RK4 method seem to not give different results visualization-wise. I believe this is due to the extreme discreteness of our data/grid. A 3 times speed up is therefore achieved when keeping to the Euler method.
 
@@ -121,7 +118,7 @@ Seeding isn't the only thing we can tweak, we can also experiment with line leng
 The implementation of the LIC algorithm went something like this:
 \begin{itemize}
  \item Superimpose your vector field over a noise filter
- \item Create streamlines, one for each pixel, more if your vectorfield grid is denser than your filter.
+ \item Create streamlines, one for each pixel, more if your vectorfield grid is denser than your pixel grid.
  \item Convolve the streamlines. Do so along the noisefilter so that the weighted average intensity is produced. This is now that pixel's grey-image-value. Do this multiple times for pixels that initiate more than one streamline and take the average. 
 \end{itemize}
 

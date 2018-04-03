@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.17)  2 APR 2018 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.17)  3 APR 2018 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -575,45 +575,46 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
  [1]
 <homo.png, id=19, 756.6669pt x 627.3036pt>
 File: homo.png Graphic file (type png)
  <use homo.png>
-Package pdftex.def Info: homo.png used on input line 92.
+Package pdftex.def Info: homo.png used on input line 89.
 (pdftex.def)             Requested size: 310.4979pt x 257.41629pt.
 
 <random.png, id=21, 889.6437pt x 708.9687pt>
 File: random.png Graphic file (type png)
  <use random.png>
-Package pdftex.def Info: random.png used on input line 98.
+Package pdftex.def Info: random.png used on input line 95.
 (pdftex.def)             Requested size: 310.4979pt x 247.43959pt.
- [2] [3 <./homo.png> <./random.png>] <short.png, id=30, 578.16pt x 433.62pt>
+ [2 <./homo.png>]
+[3 <./random.png>] <short.png, id=30, 578.16pt x 433.62pt>
 File: short.png Graphic file (type png)
  <use short.png>
-Package pdftex.def Info: short.png used on input line 104.
+Package pdftex.def Info: short.png used on input line 101.
 (pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
 
 <medium.png, id=31, 578.16pt x 433.62pt>
 File: medium.png Graphic file (type png)
  <use medium.png>
-Package pdftex.def Info: medium.png used on input line 110.
+Package pdftex.def Info: medium.png used on input line 107.
 (pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
 
 <long.png, id=32, 578.16pt x 433.62pt>
 File: long.png Graphic file (type png)
  <use long.png>
-Package pdftex.def Info: long.png used on input line 115.
+Package pdftex.def Info: long.png used on input line 112.
 (pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
  [4 <./short.png> <./medium.png>] [5 <./long.png>]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
  [6
 
 
@@ -622,7 +623,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 File: metsim_linelength_5_highdef.jpg Graphic file (type jpg)
 
 <use metsim_linelength_5_highdef.jpg>
-Package pdftex.def Info: metsim_linelength_5_highdef.jpg used on input line 150
+Package pdftex.def Info: metsim_linelength_5_highdef.jpg used on input line 147
 .
 (pdftex.def)             Requested size: 241.49895pt x 241.49158pt.
 
@@ -631,15 +632,15 @@ File: metsim_linelength_10_highdef.jpg Graphic file (type jpg)
 
 <use metsim_linelength_10_highdef.jpg>
 Package pdftex.def Info: metsim_linelength_10_highdef.jpg used on input line 15
-5.
+2.
 (pdftex.def)             Requested size: 241.49895pt x 241.49158pt.
 
 <metsim_linelength_20_highdef.jpg, id=49, 1019.81pt x 1019.81pt>
 File: metsim_linelength_20_highdef.jpg Graphic file (type jpg)
 
 <use metsim_linelength_20_highdef.jpg>
-Package pdftex.def Info: metsim_linelength_20_highdef.jpg used on input line 16
-0.
+Package pdftex.def Info: metsim_linelength_20_highdef.jpg used on input line 15
+7.
 (pdftex.def)             Requested size: 241.49895pt x 241.49158pt.
 
 <isabel_linelength_10_highdef.jpg, id=50, 2007.5pt x 2007.5pt>
@@ -647,22 +648,22 @@ File: isabel_linelength_10_highdef.jpg Graphic file (type jpg)
 
 <use isabel_linelength_10_highdef.jpg>
 Package pdftex.def Info: isabel_linelength_10_highdef.jpg used on input line 16
-6.
+3.
 (pdftex.def)             Requested size: 241.49895pt x 241.47162pt.
 
 <isabel_linelength_20_highdef.jpg, id=51, 1003.75pt x 1003.75pt>
 File: isabel_linelength_20_highdef.jpg Graphic file (type jpg)
 
 <use isabel_linelength_20_highdef.jpg>
-Package pdftex.def Info: isabel_linelength_20_highdef.jpg used on input line 17
-1.
+Package pdftex.def Info: isabel_linelength_20_highdef.jpg used on input line 16
+8.
 (pdftex.def)             Requested size: 241.49895pt x 241.48692pt.
 
 <isabel_linelength_50.png, id=52, 1003.75pt x 1003.75pt>
 File: isabel_linelength_50.png Graphic file (type png)
 
 <use isabel_linelength_50.png>
-Package pdftex.def Info: isabel_linelength_50.png used on input line 176.
+Package pdftex.def Info: isabel_linelength_50.png used on input line 173.
 (pdftex.def)             Requested size: 241.49895pt x 241.48692pt.
  [7 <./metsim_linelength_5_highdef.jpg> <./metsim_linelength_10_highdef.jpg>] [
 8 <./metsim_linelength_20_highdef.jpg> <./isabel_linelength_10_highdef.jpg>] [9
@@ -671,7 +672,7 @@ x) )
 Here is how much of TeX's memory you used:
  5408 strings out of 493029
  76361 string characters out of 6136233
- 198084 words of memory out of 5000000
+ 199084 words of memory out of 5000000
  8873 multiletter control sequences out of 15000+600000
  9024 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -687,7 +688,7 @@ lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb>
-Output written on oblig.pdf (10 pages, 6179657 bytes).
+Output written on oblig.pdf (10 pages, 6178926 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
