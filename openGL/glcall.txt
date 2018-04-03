@@ -1,0 +1,1 @@
+g++ display_animation.cpp -o lookAtThisAnimation -lglut -lGL -l GLU
